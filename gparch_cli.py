@@ -90,6 +90,13 @@ if __name__ == "__main__":
         action="store_true",
     )
 
+    parser.add_argument(
+        "-p",
+        "--photos",
+        help="ONLY download photos",
+        action="store_true",
+    )
+
     args = parser.parse_args()
 
     # Welcome Message

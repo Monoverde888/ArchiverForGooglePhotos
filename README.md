@@ -25,7 +25,7 @@ Install dependencies using pipenv
 
 ## Usage:
 ```
-usage: gparch_cli.py [-h] [-c CREDENTIALS] [-t THREADS] [-a] [-s] [-f] [directory]
+usage: gparch_cli.py [-h] [-c CREDENTIALS] [-t THREADS] [-a] [-s] [-f] [-p] [directory]
 
 - If no directory arg is provided the program will default to the current working directory.
 - If no credentials are provided the program will search for 'credentials.json' in the directory.
@@ -45,6 +45,7 @@ optional arguments:
   -a, --albums          download all albums YOU have created
   -s, --shared          download all shared albums (with you/from you)
   -f, --favorites       download all media from your library that is marked as favorite
+  -p, --photos          ONLY download photos
 ```
 
 ## Important Note:
